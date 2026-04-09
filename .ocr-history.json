@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "06/04/2569 06:19:06",
+    "input": "/data/data/com.termux/files/home/แบบฟอร์มลูกเข้าพักสำหรับการ ocr/0.jpg",
+    "language": "eng",
+    "success": true,
+    "textLength": 179,
+    "duration": "2.68"
+  },
+  {
+    "timestamp": "06/04/2569 06:18:52",
+    "input": "/data/data/com.termux/files/home/แบบฟอร์มลูกเข้าพักสำหรับการ ocr/0.jpg",
+    "language": "tha",
+    "success": false,
+    "error": "E201: Value for parameter 'language' is invalid",
+    "duration": "1.84"
+  },
+  {
+    "timestamp": "06/04/2569 04:33:30",
+    "input": "./test/eng.png",
+    "language": "eng",
+    "success": true,
+    "textLength": 868,
+    "duration": "2.65"
+  },
+  {
+    "timestamp": "06/04/2569 04:33:07",
+    "input": "./test/eng.png",
+    "language": "eng",
+    "success": true,
+    "textLength": 868,
+    "duration": "2.76"
+  },
+  {
+    "timestamp": "06/04/2569 04:32:58",
+    "input": "./test/eng.png",
+    "language": "eng",
+    "success": true,
+    "textLength": 868,
+    "duration": "2.58"
+  }
+]

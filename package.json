@@ -1,10 +1,20 @@
 {
   "name": "ocr-space-api-wrapper",
-  "version": "2.4.6",
-  "description": "Node.js wrapper for ocr.space APIs.",
+  "version": "3.0.0",
+  "description": "Enhanced Node.js wrapper for ocr.space APIs with retry logic, batch processing, and better error handling.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "start": "node index.js",
+    "start": "node example.js",
     "lint": "eslint ./",
     "test": "nyc mocha --timeout 60000 --bail",
     "coverage": "nyc --reporter=lcov --reporter=text mocha --timeout 60000 --bail"
@@ -22,9 +32,15 @@
     "nodejs",
     "optical character recognition",
     "pdf",
-    "image"
+    "image",
+    "batch processing",
+    "retry",
+    "typescript"
   ],
   "author": "Davide Violante",
+  "contributors": [
+    "Enhanced by AI"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DavideViolante/ocr-space-api-wrapper/issues"
